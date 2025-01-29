@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="config"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/remira/rpos/pos/lib/payment-service-api-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/remira/rpos/pos/lib/payment-service-api-impl-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/remira/rpos/shared/lib/commons-logging-1.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/remira/rpos/shared/lib/spring-beans-5.3.30.jar"/>
+	<classpathentry kind="lib" path="C:/remira/rpos/shared/lib/spring-core-5.3.30.jar"/>
+	<classpathentry kind="lib" path="C:/remira/rpos/shared/lib/spring-web-5.3.30.jar"/>
+	<classpathentry kind="lib" path="C:/remira/rpos/external/lib/fluent-hc-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/remira/rpos/external/lib/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/remira/rpos/external/lib/httpclient-cache-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/remira/rpos/external/lib/httpclient-win-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/remira/rpos/external/lib/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="C:/remira/rpos/external/lib/httpmime-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/remira/rpos/external/lib/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/remira/rpos/external/lib/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/remira/rpos/external/lib/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/remira/rpos/shared/lib/log4j-1.2-api-2.20.0.jar"/>
+	<classpathentry kind="lib" path="C:/remira/rpos/shared/lib/log4j-api-2.20.0.jar"/>
+	<classpathentry kind="lib" path="C:/remira/rpos/shared/lib/log4j-core-2.20.0.jar"/>
+	<classpathentry kind="lib" path="C:/remira/rpos/shared/lib/spring-aop-5.3.30.jar"/>
+	<classpathentry kind="lib" path="C:/remira/rpos/shared/lib/spring-context-5.3.30.jar"/>
+	<classpathentry kind="lib" path="C:/remira/rpos/shared/lib/spring-context-support-5.3.30.jar"/>
+	<classpathentry kind="lib" path="C:/remira/rpos/shared/lib/spring-expression-5.3.30.jar"/>
+	<classpathentry kind="lib" path="C:/remira/rpos/shared/lib/spring-jdbc-5.3.30.jar"/>
+	<classpathentry kind="lib" path="C:/remira/rpos/shared/lib/spring-jms-5.3.30.jar"/>
+	<classpathentry kind="lib" path="C:/remira/rpos/shared/lib/spring-messaging-5.3.30.jar"/>
+	<classpathentry kind="lib" path="C:/remira/rpos/shared/lib/spring-tx-5.3.30.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
